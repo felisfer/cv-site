@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV de José Fernando Espinosa Salinas - Ingeniero en Computación, DevOps e Infraestructura.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%225%22 fill=%22%230B0E14%22/><circle cx=%2212%22 cy=%2212%22 r=%224.5%22 fill=%22%234FD1A5%22/></svg>">
+  <title>José Fernando Espinosa Salinas - CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="statusbar">
+    <div class="dot-group"><span class="pulse"></span> sistema: disponible para nuevas oportunidades</div>
+    <div class="dot-group">
+      <a href="mailto:jferespinosa18@gmail.com">jferespinosa18@gmail.com</a>
+      <span>·</span>
+      <a href="https://github.com/felisfer" target="_blank" rel="noopener">github.com/felisfer</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+
+    <section class="hero">
+      <div class="terminal">
+        <span class="prompt">fernando@toluca</span>:~$ whoami<span class="cursor"></span>
+      </div>
+      <h1>José Fernando Espinosa Salinas</h1>
+      <div class="role">Ingeniero en Computación · DevOps &amp; Infraestructura</div>
+
+      <div class="hero-grid">
+        <img class="avatar-frame" src="foto.jpg" alt="Foto de perfil" style="object-fit:cover;">
+
+        <div class="contact-meta">
+          <p class="summary">Estudiante de Ingeniería en Computación con foco en DevOps e infraestructura. Diseño y opero sistemas containerizados con Docker y pipelines CI/CD, con experiencia adicional en desarrollo backend distribuido (Java / Spring Boot). Me interesa la confiabilidad de sistemas: cómo se despliegan, escalan y mantienen seguros los servicios en producción.</p>
+          <div class="contact-row">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.4"/></svg> Toluca, México</span>
+            <span><a href="https://linkedin.com/in/jose-fernando-espinosa-salinas" target="_blank" rel="noopener">linkedin.com/in/jose-fernando-espinosa-salinas</a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCACIÓN -->
+    <section class="module" id="educacion">
+      <div class="module-head">
+        <h2><span class="idx">01</span> · educación.service</h2>
+        <span class="status">● en curso</span>
+      </div>
+      <div class="entry">
+        <div class="when">ago. 2022 -<br>presente</div>
+        <div>
+          <h3>Universidad Autónoma del Estado de México</h3>
+          <div class="subtitle">Licenciatura en Ingeniería en Computación</div>
+          <div class="note">Graduación estimada: diciembre de 2027</div>
+          <div class="note">Cursos y certificaciones: Microsoft Azure Fundamentals · Fundamentos de DevOps (Microsoft Learn) · Networking Basics (Cisco Networking Academy)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section class="module" id="experiencia">
+      <div class="module-head">
+        <h2><span class="idx">02</span> · experiencia.service</h2>
+        <span class="status">● completado</span>
+      </div>
+      <div class="entry">
+        <div class="when">mar. - sep. 2025</div>
+        <div>
+          <h3>Secretaría de Finanzas del Estado de México</h3>
+          <div class="subtitle">Servicio social - Analista de Información</div>
+          <ul>
+            <li>Desarrollé una plataforma de consulta de contactos de contribuyentes en PHP y SQL Server, integrando y cruzando información de 4 padrones estatales y 1 federal (+40M de registros), optimizando el filtrado para entregar resultados en menos de 1 segundo.</li>
+            <li>Colaboré en la corrección y limpieza de bases de datos utilizadas por sistemas internos, mejorando la consistencia e integridad de la información para su explotación en aplicaciones de la dirección.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="module" id="proyectos">
+      <div class="module-head">
+        <h2><span class="idx">03</span> · proyectos.service</h2>
+        <span class="status">● desplegados</span>
+      </div>
+      <div class="projects">
+
+        <div class="card">
+          <div class="card-head">
+            <h3>Infraestructura de Hosting Personal Self-Hosted</h3>
+            <span class="when">jun. 2026 - presente</span>
+          </div>
+          <p class="desc">Arquitectura de hosting propia sobre Debian, con exposición segura de servicios públicos y acceso administrativo privado sin abrir puertos al exterior.</p>
+          <ul>
+            <li>Diseñé e implementé Cloudflare Tunnel para exposición segura de servicios públicos y Tailscale para acceso administrativo privado.</li>
+            <li>Configuré NGINX como reverse proxy, sirviendo múltiples aplicaciones containerizadas en Docker.</li>
+          </ul>
+          <div class="pills">
+            <span class="pill">Docker</span><span class="pill">Debian</span><span class="pill">Cloudflare Tunnel</span><span class="pill">Tailscale</span><span class="pill">NGINX</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h3>Sistema de Nómina con Arquitectura Distribuida</h3>
+            <span class="when">dic. 2025 - presente</span>
+          </div>
+          <p class="desc">Sistema de gestión de nómina con arquitectura distribuida, backend y frontend independientes orquestados con Docker Compose.</p>
+          <ul>
+            <li>Backend en Spring Boot y frontend en Next.js como módulos independientes, con despliegue en Azure VM.</li>
+            <li>99% de cobertura de código con 226 pruebas unitarias (JUnit 5 + Mockito).</li>
+            <li>Pipeline de CI con GitHub Actions para validar la integridad del código en cada push.</li>
+          </ul>
+          <div class="pills">
+            <span class="pill">Java</span><span class="pill">Spring Boot</span><span class="pill">JWT</span><span class="pill">Next.js</span><span class="pill">Docker Compose</span><span class="pill">GitHub Actions</span>
+          </div>
+          <br>
+          <a class="repo" href="https://github.com/felisfer/nomina-distribuido" target="_blank" rel="noopener">→ github.com/felisfer/nomina-distribuido</a>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h3>Sistema de Punto de Venta Distribuido</h3>
+            <span class="when">feb. - jun. 2024</span>
+          </div>
+          <p class="desc">Coordinación de un equipo de 24 personas como Project Manager, dando seguimiento a entregables y requerimientos del sistema.</p>
+          <ul>
+            <li>Optimización de consultas SQL con +80% de mejora en rendimiento.</li>
+          </ul>
+          <div class="pills">
+            <span class="pill">Java</span><span class="pill">PostgreSQL</span><span class="pill">Gestión de proyectos</span><span class="pill">Kanban</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="module" id="habilidades">
+      <div class="module-head">
+        <h2><span class="idx">04</span> · habilidades.config</h2>
+        <span class="status">● cargado</span>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Backend &amp; bases de datos</h4>
+          <ul>
+            <li><b>Java</b> - Spring Boot, Spring Security, JWT</li>
+            <li>PHP</li>
+            <li>PostgreSQL, SQL Server, SQLite</li>
+            <li>Diseño de bases de datos relacionales</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>DevOps &amp; infraestructura</h4>
+          <ul>
+            <li>Git, Docker, Docker Compose</li>
+            <li>CI/CD - GitHub Actions</li>
+            <li>Cloudflare Tunnel, Tailscale</li>
+            <li>NGINX (reverse proxy)</li>
+            <li>Linux - Ubuntu, Debian, Bash</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Frontend &amp; frameworks web</h4>
+          <ul>
+            <li>JavaScript, React</li>
+            <li>Next.js, Astro</li>
+            <li>HTML/CSS, Bootstrap</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Redes &amp; cloud</h4>
+          <ul>
+            <li>Fundamentos Cisco (Packet Tracer)</li>
+            <li>Microsoft Azure - IaaS, PaaS, SaaS</li>
+            <li>Gobernanza y arquitectura cloud</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Idiomas</h4>
+          <ul>
+            <li><b>Español</b> - nativo</li>
+            <li><b>Inglés</b> - B2</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Gestión de proyectos</h4>
+          <ul>
+            <li>Trabajo en equipo</li>
+            <li>Metodología Kanban</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
